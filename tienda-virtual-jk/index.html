@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Página Simple</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f0f0f0; }
+        h1 { color: darkblue; }
+    </style>
 </head>
 <body>
-    <h1>Tienda de apps</h1>
+
+    <h1>¡Funciona con un solo archivo!</h1>
+    <p>No necesité carpetas ni archivos extra para esto.</p>
+    <button onclick="saludar()">Haz clic aquí</button>
+
+    <script>
+        function saludar() {
+            alert("¡Hola desde un solo archivo HTML!");
+        }
+    </script>
 </body>
 </html>
