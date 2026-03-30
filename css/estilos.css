@@ -1,0 +1,14 @@
+.primero{
+    color: red;
+    background-color: blue;
+    width: 480px;    
+    text-align: center;
+    margin: 0 auto;
+}
+.titulo{
+    color: darkblue;
+    text-align: center;
+    border: black;
+    border: 10px;
+
+}
